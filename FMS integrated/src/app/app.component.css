@@ -1,0 +1,63 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  background-color: #333;
+  }
+li{
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    position: absolute;
+    left: 88%;
+    background: none;
+    border: none;
+  }
+  .airport{
+    position: absolute;
+    left: 20%;
+    top: 28%;
+  }
+  .flight{
+    position: absolute;
+    left: 55%;
+    top: 28%;
+  
+  }
+  .managef{
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    font-size: 15px;
+  }
+  .managea
+  {
+    position: absolute;
+    left: 29%;
+    top: 65%;
+    font-size: 15px;
+  }
+  .bottom{
+    top: 95%;
+    position: absolute;
+    left: 40%;
+    background-attachment:initial;
+  }    

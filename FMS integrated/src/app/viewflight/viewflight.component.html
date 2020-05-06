@@ -1,0 +1,29 @@
+<body>
+    <br>
+    <li><a  routerLink="/manageflight">Back to menu </a></li>
+    <br>
+    <br><br>
+    <br>
+<h3>Details of Flights</h3>
+<br>
+<br>
+<div class="thirteen"><table class="table table-bordered table-hover">
+    <tr>
+        <th>FlightNumber</th>
+        <th>CarrierName</th>
+        <th>FlightModel</th>
+        <th>SeatCapacity</th>
+    </tr>
+    <tbody>
+        <tr *ngFor="let fly of flights">
+            <td>{{fly.flightNumber}}</td>
+            <td>{{fly.carrierName}}</td>
+            <td>{{fly.flightModel}}</td>
+            <td>{{fly.seatCapacity}}</td>
+        </tr>
+    </tbody>
+</table></div>
+<br><br><br>
+<br><br><br><br><br><br>
+<br><br><br>
+</body>
